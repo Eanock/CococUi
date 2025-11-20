@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/component.schema.json",
+  "name": "loading-spinner",
+  "displayName": "加载动画",
+  "type": "ui",
+  "description": "旋转加载动画组件",
+  "version": "1.0.0",
+  "files": [
+    {
+      "source": "LoadingSpinner.ts",
+      "target": "components/loading-spinner/LoadingSpinner.ts",
+      "type": "script"
+    },
+    {
+      "source": "LoadingSpinner.prefab",
+      "target": "components/loading-spinner/LoadingSpinner.prefab",
+      "type": "prefab"
+    }
+  ],
+  "dependencies": [],
+  "tags": ["ui", "loading", "animation"]
+}
+

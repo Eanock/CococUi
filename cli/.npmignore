@@ -1,0 +1,16 @@
+# Source files
+src/
+tsconfig.json
+
+# Development
+*.log
+node_modules/
+
+# Test files
+test/
+*.test.ts
+
+# Documentation (keep only essential)
+*.md
+!README.md
+

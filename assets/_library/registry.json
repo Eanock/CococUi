@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/registry.schema.json",
+  "components": [
+    {
+      "name": "button",
+      "path": "assets/_library/button",
+      "displayName": "按钮组件",
+      "type": "ui"
+    },
+    {
+      "name": "loading-spinner",
+      "path": "assets/_library/loading-spinner",
+      "displayName": "加载动画",
+      "type": "ui"
+    },
+    {
+      "name": "toast",
+      "path": "assets/_library/toast",
+      "displayName": "Toast 提示",
+      "type": "ui"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "cocos-ui",
+  "version": "1.0.0",
+  "description": "WePlayCocos 组件库 - 类似 shadcn/ui 的 Cocos Creator 组件库",
+  "main": "scripts/copy-component.js",
+  "bin": {
+    "cocos-ui": "./scripts/copy-component.js"
+  },
+  "scripts": {
+    "add": "node scripts/copy-component.js",
+    "list": "node scripts/copy-component.js list"
+  },
+  "keywords": [
+    "cocos",
+    "cocos-creator",
+    "ui",
+    "components",
+    "shadcn"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.yourcompany.com/your-group/weplay-cocos-components.git"
+  },
+  "author": "WePlay Team",
+  "license": "MIT",
+  "files": [
+    "assets/_library/**/*",
+    "scripts/copy-component.js",
+    "schemas/**/*",
+    "README.md"
+  ]
+}

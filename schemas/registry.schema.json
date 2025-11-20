@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Components Registry",
+  "type": "object",
+  "required": ["components"],
+  "properties": {
+    "components": {
+      "type": "array",
+      "description": "所有可用的组件列表",
+      "items": {
+        "type": "object",
+        "required": ["name", "path"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "组件名称"
+          },
+          "path": {
+            "type": "string",
+            "description": "组件目录路径"
+          },
+          "displayName": {
+            "type": "string",
+            "description": "组件显示名称"
+          },
+          "type": {
+            "type": "string",
+            "description": "组件类型"
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/component.schema.json",
+  "name": "button",
+  "displayName": "按钮组件",
+  "type": "ui",
+  "description": "通用的 UI 按钮组件，支持多种样式和交互效果",
+  "version": "1.0.0",
+  "files": [
+    {
+      "source": "Button.ts",
+      "target": "components/button/Button.ts",
+      "type": "script"
+    },
+    {
+      "source": "Button.prefab",
+      "target": "components/button/Button.prefab",
+      "type": "prefab"
+    }
+  ],
+  "dependencies": [],
+  "tags": ["ui", "button", "interactive"]
+}
+

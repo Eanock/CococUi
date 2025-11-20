@@ -1,0 +1,11 @@
+# 如果要发布到公司内部 npm，配置如下：
+
+# 公司 npm 仓库地址
+registry=https://npm.yourcompany.com
+
+# 或者只针对特定 scope
+@yourcompany:registry=https://npm.yourcompany.com
+
+# 认证 token（从 npm login 获取）
+# //npm.yourcompany.com/:_authToken=YOUR_TOKEN_HERE
+

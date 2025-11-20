@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Cocos Component",
+  "type": "object",
+  "required": ["name", "type", "files"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "组件名称（英文，kebab-case）"
+    },
+    "displayName": {
+      "type": "string",
+      "description": "组件显示名称（中文）"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["ui", "logic", "effect", "utility"],
+      "description": "组件类型"
+    },
+    "description": {
+      "type": "string",
+      "description": "组件描述"
+    },
+    "version": {
+      "type": "string",
+      "description": "组件版本号"
+    },
+    "files": {
+      "type": "array",
+      "description": "组件包含的文件列表",
+      "items": {
+        "type": "object",
+        "required": ["source", "target", "type"],
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "源文件路径（相对于组件目录）"
+          },
+          "target": {
+            "type": "string",
+            "description": "目标路径（相对于项目 assets 目录）"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["script", "prefab", "scene", "texture", "material", "animation", "other"],
+            "description": "文件类型"
+          }
+        }
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "description": "依赖的其他组件",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "description": "组件标签",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
+

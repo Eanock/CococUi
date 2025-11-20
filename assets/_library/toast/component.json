@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/component.schema.json",
+  "name": "toast",
+  "displayName": "Toast 提示",
+  "type": "ui",
+  "description": "轻量级消息提示组件",
+  "version": "1.0.0",
+  "files": [
+    {
+      "source": "Toast.ts",
+      "target": "components/toast/Toast.ts",
+      "type": "script"
+    },
+    {
+      "source": "ToastManager.ts",
+      "target": "components/toast/ToastManager.ts",
+      "type": "script"
+    },
+    {
+      "source": "Toast.prefab",
+      "target": "components/toast/Toast.prefab",
+      "type": "prefab"
+    }
+  ],
+  "dependencies": [],
+  "tags": ["ui", "toast", "notification"]
+}
+

@@ -1,0 +1,15 @@
+{
+  "$schema": "./cocos-components.schema.json",
+  "name": "WePlayCocos 组件库",
+  "version": "1.0.0",
+  "description": "公司内部 Cocos Creator 组件库",
+  "repository": {
+    "type": "gitlab",
+    "url": "https://gitlab.yourcompany.com/your-group/weplay-cocos-components.git"
+  },
+  "components": {
+    "directory": "assets/_library",
+    "assets_directory": "assets/components"
+  }
+}
+
