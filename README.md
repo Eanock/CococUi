@@ -1,10 +1,10 @@
-# WePlayCocos 组件库
+# CocosUi 组件库
 
 > 基于 shadcn/ui 理念的 Cocos Creator 组件库系统
 
 ## 🎯 项目简介
 
-WePlayCocos 是一个 Cocos Creator 组件库项目，采用类似 shadcn/ui 的设计理念：
+CocosUi 是一个 Cocos Creator 组件库项目，采用类似 shadcn/ui 的设计理念：
 
 - ✅ **源码直接复制**：组件代码直接复制到项目中，完全可控
 - ✅ **完全可定制**：代码在你的项目中，随意修改
@@ -73,7 +73,7 @@ cocos-components add button
 ## 📦 项目结构
 
 ```
-WePlayCocos/
+CocosUi/
 ├── assets/
 │   └── _library/           # 组件库源码（可在编辑器中预览）
 │       ├── button/
